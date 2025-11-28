@@ -2,6 +2,7 @@
 import { defineConfig } from "astro/config";
 
 // https://astro.build/config
-export default defineConfig({});
-site: "https://DeciusWoodson-FS.github.io";
-base: "/StaticSite";
+export default defineConfig({
+  site: "https://DeciusWoodson-FS.github.io",
+  base: "/StaticSite",
+});
